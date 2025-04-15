@@ -1,0 +1,30 @@
+{
+  "name": "node-ma",
+  "version": "1.0.0",
+  "description": "Building The backend using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KagisoT/ManqobaAuto.git"
+  },
+  "author": "Kagiso Twala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KagisoT/ManqobaAuto/issues"
+  },
+  "homepage": "https://github.com/KagisoT/ManqobaAuto#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "git": "^0.1.5",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
